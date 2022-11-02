@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Forms - input types</h3>
+    <form action="./forms_basic.html" method="get" id="form_01">
+      <div>
+        <label for="">Password</label>
+        <input type="password" name="password" id="" />
+      </div>
+
+      <div>Publishing Lang</div>
+      <div>
+        <div>
+          <input type="radio" name="langs" id="html_id" value="html" />
+          <label for="html_id">HTML</label>
+        </div>
+        <div>
+          <input type="radio" name="langs" id="css_id" value="css" />
+          <label for="css_id">CSS</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="langs"
+            id="javascript_id"
+            value="javascript"
+          />
+          <label for="javascript_id">JavaScript</label>
+          <div>Vehicles</div>
+          <div>
+            <input type="checkbox" name="Bike" value="bike" id="bike_id" />
+            <label for="bike_id">Bike</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Bus" value="bus" id="bus_id" />
+            <label for="bus_id">Bus</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Car" value="car" id="car_id" />
+            <label for="car_id">Car</label>
+          </div>
+        </div>
+      </div>
+      <div>
+        <label for="">Choose Date</label><input type="date" name="Date" id="" />
+      </div>
+      <div>
+        <input type="hidden" name="custId" value="U01" />
+        <input type="hidden" name="answerId" value="A03" />
+      </div>
+      <hr />
+      <div>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <hr />
+    <button type="reset">Reset without form</button>
+    <button type="reset" for="form_01">Reset without form</button>
+    <h3><a href="../index.html" target="_self">Back to Index</a></h3>
+  </body>
+</html>

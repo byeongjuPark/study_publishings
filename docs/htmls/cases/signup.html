@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>기본정보</th>
+      </tr>
+      <tr>
+        <th>이름</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>아이디</th>
+        <td>
+          <input type="text" /><input
+            type="checkbox"
+            name="checkId"
+            id="checkId"
+          /><label for="checkId">아이디중복확인</label>
+          <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+        </td>
+      </tr>
+      <tr>
+        <th>비밀번호</th>
+        <td>
+          <input type="text" />
+          <div>
+            6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.
+          </div>
+          <div>3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.</div>
+        </td>
+      </tr>
+      <tr>
+        <th>비밀번호 확인</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>이메일</th>
+        <td>
+          <input type="text" />@<input type="text" /><select name="email" id="">
+            <option value="select">메일주소선택</option>
+            <option value="naver.com">naver.com</option>
+            <option value="daum.net">daum.net</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>연락처
+        </th>
+        
+        <td>
+            <div>
+            휴대전화  <input type="text" size="5">-<input type="text" size="5">-<input type="text" size="5"> 
+        </div>
+        <div>
+            일반전화  <input type="text" size="5">-<input type="text" size="5">-<input type="text" size="5"> 
+        </div>
+        <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
+    </td>
+        </td>
+      </tr>
+      <tr>
+        <th>우편번호
+        </th>
+        <td><input type="text" name="" id=""><input type="button" value="주소검색"></td>
+      </tr>
+    <tr>
+        <th>주소</th>
+        <td><div><input type="text" name="" id="" size="63"></div>
+        <div><input type="text" name="" id="" size="15"></div></td>
+    </tr>
+    <tr>
+        <th>정보수신 여부</th>
+        <td>서비스 및 이벤트 소식을 <input type="checkbox" name="" id="">Email로 수신하겠습니다. <input type="checkbox" name="" id="">SMS로 수신하겠습니다.</td>
+    </tr>
+    </table>
+
+    <h3><a href="../../index.html" target="_self">Back to Index</a></h3>
+  </body>
+</html>
+<!-- <form action="submit">
+      <div>기본정보</div>
+      <div>이름<input type="text" /></div>
+      <div>
+        아이디<input type="text" /><input
+          type="checkbox"
+          name="checkId"
+          id="checkId"
+        /><label for="checkId">아이디중복확인</label>
+      </div>
+
+      <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+      <div>비밀번호<input type="text" /></div>
+    </form> -->
