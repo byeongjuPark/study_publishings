@@ -1,0 +1,18 @@
+* {
+  margin-bottom: 10px;
+}
+
+.border-round-10px {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.border-round-50px {
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.border-round-50 {
+  border: 2px solid red;
+  border-radius: 50%;
+}

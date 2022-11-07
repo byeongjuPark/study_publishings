@@ -40,3 +40,52 @@
   border-style: solid;
   border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) seagreen;
 }
+
+.border-short {
+  border: 5px solid blue;
+}
+
+.border-short-left {
+  padding-left: 10px;
+  border-left: 10px solid red;
+}
+
+.border-short-bottom {
+  border-bottom: 3px dotted violet;
+}
+
+.border-round-5px {
+  border-style: solid;
+  border-radius: 5px;
+}
+.border-round-20px {
+  border-style: solid;
+  border-radius: 20px;
+}
+.margins-10px {
+  margin: 10px;
+}
+.margins-20px {
+  margin: 20px;
+}
+
+.padding-10px {
+  padding: 10px;
+}
+
+.padding-20px {
+  padding: 20px;
+}
+
+.width-50px {
+  width: 50px;
+  height: 50px;
+}
+.width-50 {
+  width: 50%;
+  height: 50%;
+}
+
+.shadow-20px {
+  box-shadow: 10px 5px 5px gray;
+}

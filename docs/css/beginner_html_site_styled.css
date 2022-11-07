@@ -1,0 +1,31 @@
+/* * {
+  border: 1px solid gray;
+} */
+p {
+  padding-left: 15px;
+  letter-spacing: 2px;
+}
+.center {
+  text-align: center;
+}
+bottom-padding {
+  padding-bottom: 20px;
+}
+.font-size-50px {
+  font-size: 50px;
+}
+html {
+  background-color: #00539f;
+}
+body {
+  background-color: #ff9500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 5px solid black;
+}
+h1 {
+  color: #00539f;
+  text-shadow: 3px 3px black;
+  font-size: 60px;
+  font-weight: bold;
+}

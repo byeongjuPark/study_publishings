@@ -1,0 +1,11 @@
+* {
+  font-family: "Nanum Pen Script", cursive;
+  border: 1px solid gray;
+}
+.text-align {
+  text-align: center;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
