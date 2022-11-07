@@ -1,0 +1,42 @@
+* {
+  margin-bottom: 5px;
+}
+
+.dotted {
+  border-style: dotted;
+}
+
+.double {
+  border-top: 10px;
+  border-style: double;
+}
+
+.solid {
+  border-top: 10px;
+  border-style: solid;
+}
+
+.mixed {
+  border-style: solid double dotted dashed;
+}
+
+.solid-5px {
+  border-width: 5px;
+  border-style: solid;
+}
+
+.mixed-5px {
+  border-width: 5px 3px 5px 7px;
+  border-style: solid;
+}
+/*   border-color: red blue green purple;
+ */
+.solid-red {
+  border-style: solid;
+  border-color: red;
+}
+
+.mixed-color {
+  border-style: solid;
+  border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) seagreen;
+}
