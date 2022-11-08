@@ -1,0 +1,39 @@
+* {
+  border: 1px dotted gray;
+}
+
+.flex-container {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  font-size: 30px;
+  background-color: azure;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+.flex-container-column {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-container-column > div {
+  font-size: 30px;
+  background-color: azure;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ul-flat {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: center;
+}
