@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/ui_degsign_form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>포트폴리오 문제</h1>
+    <hr />
+
+    <form action="./ui_degsign_form.html" method="get">
+      <div class="write-notice-text">공지사항 작성하기</div>
+
+      <div class="write-notice">
+        <table>
+          <tr>
+            <th>제목</th>
+            <td><input type="text" name="title" /></td>
+          </tr>
+          <tr>
+            <th>내용</th>
+            <td>
+              <textarea name="content" id="" cols="22" rows="8"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th>첨부 파일</th>
+            <td>
+              <input name="uploadFile" type="submit" value="파일 선택" /> 선택된
+              파일 없음
+            </td>
+          </tr>
+          <tr>
+            <th class="margintop" colspan="2">
+              <input type="submit" value="작성하기" />
+            </th>
+          </tr>
+        </table>
+      </div>
+    </form>
+
+    <br />
+    <hr />
+    <br />
+    <table border="1">
+      <div></div>
+      <tr class="background-color-coral">
+        <th>번호</th>
+        <th colspan="2">제목</th>
+
+        <th>작성자</th>
+        <th>작성일</th>
+        <th>조회수</th>
+      </tr>
+      <tr class="background-color-td">
+        <td>9</td>
+        <td class="paddings">공지사항 제목9</td>
+        <td><input type="submit" value="파일 선택" /></td>
+        <td>user01</td>
+        <td>2021-03-29</td>
+        <td>34</td>
+      </tr>
+      <tr class="background-color-td">
+        <td>6</td>
+        <td>공지사항 제목6</td>
+        <td><input type="submit" value="파일 선택" /></td>
+        <td>answ445</td>
+        <td>2021-03-12</td>
+        <td>67</td>
+      </tr>
+      <tr class="background-color-td">
+        <td>3</td>
+        <td>공지사항 제목3</td>
+        <td><input type="submit" value="파일 선택" /></td>
+        <td>testg12</td>
+        <td>2021-03-29</td>
+        <td>98</td>
+      </tr>
+      <tr class="background-color-td">
+        <td>2</td>
+        <td>공지사항 제목2</td>
+        <td><input type="submit" value="파일 선택" /></td>
+        <td>palwe3</td>
+        <td>2021-03-29</td>
+        <td>85</td>
+      </tr>
+      <tr class="background-color-td">
+        <td>1</td>
+        <td>공지사항 제목1</td>
+        <td><input type="submit" value="파일 선택" /></td>
+        <td>xml23</td>
+        <td>2021-03-29</td>
+        <td>124</td>
+      </tr>
+      <tr class="background-color-coral">
+        <th colspan="4">전체공지사항 갯수</th>
+        <th colspan="2">5개</th>
+      </tr>
+    </table>
+    <hr />
+  </body>
+</html>
